@@ -11,28 +11,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddc6d032-d621-4e61-9c86-1cadb6bbb3c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/scr/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/scr/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr/3-tagged-template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1crbOhaD6bNAiZlGqdlPUGCMYei" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -40,6 +55,16 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="3-tagged-template.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/js-tdd-course/scr/3-tagged-template.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.3-tagged-template.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -55,6 +80,7 @@
       <workItem from="1591290803325" duration="494000" />
       <workItem from="1591291388141" duration="856000" />
       <workItem from="1591292260783" duration="5087000" />
+      <workItem from="1591297597202" duration="2812000" />
     </task>
     <servers />
   </component>
@@ -86,5 +112,9 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1414" y="155" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1591294578864" />
+    <state x="1569" y="238" key="run.anything.popup" timestamp="1591302646853">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1569" y="238" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1591302646853" />
   </component>
 </project>
