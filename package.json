@@ -1,0 +1,22 @@
+{
+  "name": "js-tdd-course",
+  "version": "1.0.0",
+  "description": "One Paragraph of project description goes here",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SDiegoS/js-tdd-course.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Diego <diego_ireno@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SDiegoS/js-tdd-course/issues"
+  },
+  "homepage": "https://github.com/SDiegoS/js-tdd-course#readme"
+}
