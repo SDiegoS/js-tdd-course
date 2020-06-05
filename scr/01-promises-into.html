@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01 - Promises intro</title>
+</head>
+<body>
+  <script>
+    var defer = new Promise((resolve, reject) => {
+      if(true){
+        resolve('Hello! It works!');
+      } else {
+        reject('Error!');
+      }
+    });
+
+    defer.then((data) => console.log(data));
+
+  </script>
+</body>
+</html>
