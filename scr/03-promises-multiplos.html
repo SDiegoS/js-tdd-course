@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>03 - Promises Multiplos</title>
+</head>
+<body>
+  <script>
+    const currency = new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve({currency: 'euro', value: 3.50});
+      }, 1000);
+    });
+
+    const countries = new Promise((resolve, reject) => {
+      resolve(['Ireland', 'England', 'Scotland']);
+    });
+
+    // Promise
+    //   .all([currency, countries])
+    //   .then(responses => {
+    //     console.log(responses);
+    //   })
+
+    //Ele mostra só o primeiro a ser resolvido e iginora os outros,
+    // como currency tem tempo ele mostra o countries pq ele se resolve primeiro:
+    Promise
+      .race([currency, countries])
+      .then(responses => {
+        console.log(responses);
+      })
+
+  </script>
+</body>
+</html>

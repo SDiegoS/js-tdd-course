@@ -7,14 +7,24 @@
 <body>
   <script>
     var defer = new Promise((resolve, reject) => {
-      if(true){
-        resolve('Hello! It works!');
-      } else {
-        reject('Error!');
-      }
+      setTimeout(() => {
+        if(true){
+          resolve('Hello! It works!');
+        } else {
+          reject('Error!');
+        }
+      }, 2000);
     });
 
-    defer.then((data) => console.log(data));
+    defer
+      .then((data) => {
+        console.log(data);
+        return 'foo';
+      })
+      .then((data) => console.log(data))
+
+      .catch((err) => console.log(err));
+
 
   </script>
 </body>

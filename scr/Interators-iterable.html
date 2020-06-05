@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interators e Iterable</title>
+</head>
+<body>
+  <script>
+    var txt = 'Diego';
+    var it = txt[Symbol.iterator]();
+
+    for ( letter of txt) {
+      console.log(letter);
+      if (letter === 'e') break;
+    }
+
+  </script>
+</body>
+</html>

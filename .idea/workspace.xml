@@ -11,8 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddc6d032-d621-4e61-9c86-1cadb6bbb3c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scr/01-promises-into.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr/01-heranca-prototipal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr/02-classes-introducao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr/02-promises-exemplo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr/03-classes-extende.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr/03-promises-multiplos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr/Interators-iterable.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/01-promises-into.html" beforeDir="false" afterPath="$PROJECT_DIR$/scr/01-promises-into.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,32 +62,32 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.03-reset-parametros.html">
-    <configuration name="01-spread-operator-intro.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/js-tdd-course/scr/01-spread-operator-intro.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.Interators-iterable.html">
+    <configuration name="01-heranca-prototipal.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/js-tdd-course/scr/01-heranca-prototipal.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="01-promises-into.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/js-tdd-course/scr/01-promises-into.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="02-destructuring-array.html" type="JavascriptDebugType" uri="http://localhost:63342/js-tdd-course/scr/02-destructuring-array.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="02-spread-dentro-funcao.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/js-tdd-course/scr/02-spread-dentro-funcao.html" useBuiltInWebServerPort="true">
+    <configuration name="02-promises-exemplo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/js-tdd-course/scr/02-promises-exemplo.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="03-destructuring-swap-variables.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/js-tdd-course/scr/03-destructuring-swap-variables.html" useBuiltInWebServerPort="true">
+    <configuration name="03-promises-multiplos.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/js-tdd-course/scr/03-promises-multiplos.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="03-reset-parametros.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/js-tdd-course/scr/03-reset-parametros.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="04-array-fill.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/js-tdd-course/scr/04-array-fill.html" useBuiltInWebServerPort="true">
+    <configuration name="Interators-iterable.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/js-tdd-course/scr/Interators-iterable.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.03-reset-parametros.html" />
-        <item itemvalue="JavaScript Debug.02-spread-dentro-funcao.html" />
-        <item itemvalue="JavaScript Debug.01-spread-operator-intro.html" />
-        <item itemvalue="JavaScript Debug.03-destructuring-swap-variables.html" />
-        <item itemvalue="JavaScript Debug.02-destructuring-array.html" />
+        <item itemvalue="JavaScript Debug.Interators-iterable.html" />
+        <item itemvalue="JavaScript Debug.01-heranca-prototipal.html" />
+        <item itemvalue="JavaScript Debug.03-promises-multiplos.html" />
+        <item itemvalue="JavaScript Debug.02-promises-exemplo.html" />
+        <item itemvalue="JavaScript Debug.01-promises-into.html" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +106,7 @@
       <workItem from="1591291388141" duration="856000" />
       <workItem from="1591292260783" duration="5087000" />
       <workItem from="1591297597202" duration="3562000" />
-      <workItem from="1591357793512" duration="10362000" />
+      <workItem from="1591357793512" duration="21172000" />
     </task>
     <servers />
   </component>
@@ -140,54 +146,54 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1698" y="278" width="424" height="479" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1591291297718" />
-    <state width="1258" height="341" key="GridCell.Tab.0.bottom" timestamp="1591361046007">
+    <state width="1258" height="341" key="GridCell.Tab.0.bottom" timestamp="1591380314008">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1258" height="341" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1591361046007" />
-    <state width="1258" height="341" key="GridCell.Tab.0.center" timestamp="1591361046006">
+    <state width="1258" height="341" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1591380314008" />
+    <state width="1258" height="341" key="GridCell.Tab.0.center" timestamp="1591380314007">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1258" height="341" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1591361046006" />
-    <state width="1258" height="341" key="GridCell.Tab.0.left" timestamp="1591361046006">
+    <state width="1258" height="341" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1591380314007" />
+    <state width="1258" height="341" key="GridCell.Tab.0.left" timestamp="1591380314006">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1258" height="341" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1591361046006" />
-    <state width="1258" height="341" key="GridCell.Tab.0.right" timestamp="1591361046007">
+    <state width="1258" height="341" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1591380314006" />
+    <state width="1258" height="341" key="GridCell.Tab.0.right" timestamp="1591380314007">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1258" height="341" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1591361046007" />
-    <state width="1258" height="341" key="GridCell.Tab.1.bottom" timestamp="1591361046008">
+    <state width="1258" height="341" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1591380314007" />
+    <state width="1258" height="341" key="GridCell.Tab.1.bottom" timestamp="1591380314009">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1258" height="341" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1591361046008" />
-    <state width="1258" height="341" key="GridCell.Tab.1.center" timestamp="1591361046007">
+    <state width="1258" height="341" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1591380314009" />
+    <state width="1258" height="341" key="GridCell.Tab.1.center" timestamp="1591380314008">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1258" height="341" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1591361046007" />
-    <state width="1258" height="341" key="GridCell.Tab.1.left" timestamp="1591361046007">
+    <state width="1258" height="341" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1591380314008" />
+    <state width="1258" height="341" key="GridCell.Tab.1.left" timestamp="1591380314008">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1258" height="341" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1591361046007" />
-    <state width="1258" height="341" key="GridCell.Tab.1.right" timestamp="1591361046008">
+    <state width="1258" height="341" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1591380314008" />
+    <state width="1258" height="341" key="GridCell.Tab.1.right" timestamp="1591380314008">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1258" height="341" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1591361046008" />
-    <state width="1258" height="341" key="GridCell.Tab.2.bottom" timestamp="1591361046009">
+    <state width="1258" height="341" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1591380314008" />
+    <state width="1258" height="341" key="GridCell.Tab.2.bottom" timestamp="1591380314010">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1258" height="341" key="GridCell.Tab.2.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1591361046009" />
-    <state width="1258" height="341" key="GridCell.Tab.2.center" timestamp="1591361046009">
+    <state width="1258" height="341" key="GridCell.Tab.2.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1591380314010" />
+    <state width="1258" height="341" key="GridCell.Tab.2.center" timestamp="1591380314009">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1258" height="341" key="GridCell.Tab.2.center/0.0.2560.1040@0.0.2560.1040" timestamp="1591361046009" />
-    <state width="1258" height="341" key="GridCell.Tab.2.left" timestamp="1591361046008">
+    <state width="1258" height="341" key="GridCell.Tab.2.center/0.0.2560.1040@0.0.2560.1040" timestamp="1591380314009" />
+    <state width="1258" height="341" key="GridCell.Tab.2.left" timestamp="1591380314009">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1258" height="341" key="GridCell.Tab.2.left/0.0.2560.1040@0.0.2560.1040" timestamp="1591361046008" />
-    <state width="1258" height="341" key="GridCell.Tab.2.right" timestamp="1591361046009">
+    <state width="1258" height="341" key="GridCell.Tab.2.left/0.0.2560.1040@0.0.2560.1040" timestamp="1591380314009" />
+    <state width="1258" height="341" key="GridCell.Tab.2.right" timestamp="1591380314010">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1258" height="341" key="GridCell.Tab.2.right/0.0.2560.1040@0.0.2560.1040" timestamp="1591361046009" />
+    <state width="1258" height="341" key="GridCell.Tab.2.right/0.0.2560.1040@0.0.2560.1040" timestamp="1591380314010" />
     <state x="1414" y="155" key="SettingsEditor" timestamp="1591294578864">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
