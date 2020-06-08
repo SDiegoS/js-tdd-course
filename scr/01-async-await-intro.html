@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01 - Async/Await Intro</title>
+</head>
+<body>
+  <script>
+    // async siguinifica q vai ter espera na função; await é a função de espera
+    async function getPosts() {
+      //tratanto erro
+      try {
+        const response = fetch('https://jsonview.com/example.json');
+        const data = await response.json();
+
+        return data.map(post => {
+          console.log(post.title);
+        });
+      }
+      catch (e) {
+        console.error('Esse é o erro:', e);
+      }
+
+    }
+
+    getPosts();
+
+  </script>
+</body>
+</html>
