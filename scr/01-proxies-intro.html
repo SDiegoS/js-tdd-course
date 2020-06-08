@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01 - Proxies Intro</title>
+</head>
+<body>
+  <script>
+      let obj = {
+        name: 'William',
+        age: 26
+      }
+
+      let proxy = new Proxy(obj, {
+        //objName é a opção no let obj;
+        get(target, objName) {
+          console.log(objName);
+          console.log('Alguém está o pedindo o nome =D');
+          return target[objName];
+        },
+        set(target, objName, value) {
+          console.log('Alguém está mudando o nome!');
+          target[objName] = value;
+        }
+      });
+
+  </script>
+</body>
+</html>

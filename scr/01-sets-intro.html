@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01 - Sets Intro</title>
+</head>
+<body>
+  <script>
+      let mySet = new Set(['willian', 'jonas', 'godoy']);
+
+      mySet.add('marcio');
+      mySet.add('marcio');
+      mySet.add('willian');
+
+      mySet.delete('willian');
+
+      console.log(mySet.has('william'));
+      console.log(mySet.has('marcio'));
+
+      console.log(mySet[1]);
+
+      let it = mySet.values();
+
+      for (name of it){
+        console.log(name);
+      }
+
+  </script>
+</body>
+</html>
